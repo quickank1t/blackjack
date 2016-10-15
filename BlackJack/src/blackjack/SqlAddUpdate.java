@@ -21,10 +21,17 @@ public class SqlAddUpdate {
     private Statement statement;
     private ResultSet result;
     
+    public void setUsernamePassword(){
+        //System.out.println("j");
+        setDatabase("ankit");
+        setPassword("4321");
+    }
+    
     public SqlAddUpdate(){
+        setUsernamePassword();
         try{
             Class.forName("com.mysql.jdbc.Driver");
-             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/blackjack", "root", "");
+             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/blackjack", getDatabaseName(), getPassword() );
              statement = connection.createStatement();
 
         }catch(Exception e){
