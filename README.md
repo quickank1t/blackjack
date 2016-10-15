@@ -5,7 +5,7 @@ Console based java application wiith databse connectivity (mysql)
 It is just a random balckjack game which i tried to make because i love playing blackjack. Database connective is also there. It keep a track on differnt users, money they have, game wons by individual user, and a record of each and every game played by differnt users along with stake and the result, just to keep the track on house profit or lose situation.
 
 # TECHNOLOGY
--core java
+-core java<br>
 -Mysql with jdbc connectivity
 
 # THERE ARE 5 DIFFERENT CLASSES
