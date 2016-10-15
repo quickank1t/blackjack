@@ -13,6 +13,24 @@ import java.util.Scanner;
  */
 
 public class BlackJack {
+    private static String database, password;
+    
+    public static void setDatabase(String db){
+        database = db;
+    }
+    
+    public static void setPassword(String pass){
+        password = pass;
+    }
+    
+    public static String getDatabaseName(){
+        System.out.println(database);
+        return database;
+    }
+    
+    public static String getPassword(){
+        return password;
+    }
 
     public static int[] getInUseCards() {
         return inUseCards;
