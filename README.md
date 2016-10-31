@@ -21,3 +21,6 @@ It is just a random balckjack game which i tried to make because i love playing 
 
 # RESULT
 Achived the desire result in 3 days.
+
+# LIVE
+I have made similar program in javascript. If you know how to play balckjack you can give this a try. <A HREF="https://quickank1t.github.io/blackjack/" target="_blank">Demo in github</A>
